@@ -33,6 +33,12 @@ cd <プロジェクト名>
 uv sync
 ```
 
+#### ※依存関係を佐伸する場合
+```bash
+uv add japanize-matplotlib jupyter matplotlib numpy openpyxl pandas ruff seaborn
+uv lock --upgrade
+```
+
 ### 4. Jupyter Notebookの起動
 
 ```bash
